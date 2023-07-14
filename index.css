@@ -3,10 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
     /* background-color: #f1a10a; */
+    scroll-behavior: smooth;
 }
 
 .date_section {
-    padding: 50px;
+    padding-top: 20px;
     background-color: #f1a10a;
 }
 
@@ -21,7 +22,6 @@
 .date_container>p {
     /* border: 1px solid red; */
     margin: auto;
-    ;
     letter-spacing: 30px;
 }
 
@@ -34,7 +34,7 @@
 
 .py-logo {
     /* border: 1px solid red; */
-    margin-top: 20px;
+    margin-top: 0px;
     width: 55%;
     display: block;
     margin: auto;
@@ -50,15 +50,21 @@
 }
 
 .section_1_btn {
-    padding: 15px;
+    padding: 15px 0px;
+    width: 200px;
     display: block;
     margin: auto;
+    text-align: center;
     margin-top: 30px;
     border-radius: 10px;
-    border: none;
     background-color: black;
     color: #f1a10a;
-    cursor: pointer;
+}
+
+.section_1_btn:hover{
+    color: white;
+    transition: .6s;
+    width: 230px;
 }
 
 /* section 2 image  */
@@ -136,7 +142,7 @@
 
 .section_4 {
     padding: 100px;
-    background-color: #ffea00;
+    background: linear-gradient(to top, #ffea00 0%,#f1a10a 100%);
     text-align: center;
 }
 
@@ -188,7 +194,7 @@
 
 .section_6 {
     padding: 100px;
-    background-color: #ffea00;
+    background: linear-gradient(to top,  #fff 0%,#ffea00 100%);
     text-align: center;
 }
 
@@ -222,7 +228,6 @@
 
 .section_7 {
     padding: 100px;
-    background-color: #ffea00;
 }
 
 .s7_heading {
@@ -245,21 +250,30 @@
     background-color: #ffea00;
 }
 
+/* section 8  */
+
+#section_8{
+    padding-top: 120px;
+    /* border: 1px solid red; */
+}
+
+
 svg {
     height: 45px;
     width: 45px;
+    background-color: #fff;
 }
 
 svg:hover {
     transition: .6s;
     height: 35px;
     width: 35px;
-    background-color: aliceblue;
+    background-color: #f1a10a;
     padding: 5px;
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 667px) {
+@media only screen and (min-width: 280px) and (max-width: 667px) {
     .date_section {
         padding: 15px 0px;
     }
@@ -345,7 +359,7 @@ svg:hover {
     }
 
     .s7_heading {
-        font-size: 10rem;
+        font-size: 8rem;
     }
 }
 
