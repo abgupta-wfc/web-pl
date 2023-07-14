@@ -5,22 +5,23 @@
     /* background-color: #f1a10a; */
 }
 
-.date_section{
+.date_section {
     padding: 50px;
     background-color: #f1a10a;
 }
 
-.date_container{
+.date_container {
     width: 75%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* border: 1px solid red; */
 }
 
-.date_container>p{
-    /* border: 1px solid red; */    
-    margin: auto;;
+.date_container>p {
+    /* border: 1px solid red; */
+    margin: auto;
+    ;
     letter-spacing: 30px;
 }
 
@@ -145,7 +146,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.s4_leaders > div {
+
+.s4_leaders>div {
     padding: 40px 10px;
     /* border: 1px solid red; */
     border-radius: 20px;
@@ -153,16 +155,16 @@
 }
 
 .team_pic {
-    max-width: 120px;
-    border-radius: 70px;
+    max-width: 40%;
+    border-radius: 50%;
     background-color: #ffea00;
 }
 
-.s4_leader_name{
+.s4_leader_name {
     margin-top: 30px;
 }
 
-.s4_leader_des{
+.s4_leader_des {
     margin-top: 10px;
 }
 
@@ -184,74 +186,251 @@
 
 /* section 6  */
 
-.section_6{
+.section_6 {
     padding: 100px;
     background-color: #ffea00;
+    text-align: center;
 }
 
 .s6_container {
     display: block;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.s6_heading{
+.s6_heading {
     font-size: 48px;
     margin: auto;
     margin-bottom: 30px;
 }
 
-.s6_container>div{
+.s6_container>div {
     max-width: 80%;
 }
 
-.s6_para{
+.s6_para {
     margin-top: 30px;
 }
 
-.sec6_container{
+.sec6_container {
     width: 90%;
     margin: auto;
 }
 
 /* section 7  */
 
-.section_7{
+.section_7 {
     padding: 100px;
     background-color: #ffea00;
 }
 
-.s7_heading{
-    font-size: 90vh;
+.s7_heading {
+    font-size: 20rem;
     line-height: 1em;
     text-align: center;
     /* border: 1px solid red; */
 }
 
-.s7_container{
+.s7_container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 150px;
     margin: auto;
     /* border: 1px solid; */
 }
 
-.s7_container>a{
+.s7_container>a {
     /* border: 1px solid red; */
     background-color: #ffea00;
 }
 
-svg{
+svg {
     height: 45px;
     width: 45px;
 }
 
-svg:hover{
+svg:hover {
     transition: .6s;
     height: 35px;
     width: 35px;
     background-color: aliceblue;
     padding: 5px;
     border-radius: 50%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px) {
+    .date_section {
+        padding: 15px 0px;
+    }
+
+    .date_container>p {
+        letter-spacing: 5px;
+    }
+
+    .section_1 {
+        /* border: 1px solid red; */
+        padding: 10px 0px;
+    }
+
+    .py-logo {
+        width: 90%;
+    }
+
+    .section_1_paragraph {
+        width: 90%;
+        font-size: 22px;
+        margin: auto;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .section_3 {
+        padding: 0px;
+    }
+
+    .s3_container {
+        width: 90%;
+        padding: 80px 0px;
+    }
+
+    .s3_heading {
+        font-size: 50px;
+    }
+
+    .s3_para {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+
+    .section_4 {
+        padding: 30px 0px;
+    }
+
+    .s4_leaders {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .s4_leaders>div {
+        padding: 40px 0px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .s5_heading {
+        padding: 30px 0px;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .section_6 {
+        padding: 30px 0px;
+    }
+
+    .s6_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .s6_container>div {
+        max-width: 100%;
+    }
+
+    .s6_para {
+        font-size: 22px;
+    }
+
+    .section_7 {
+        padding: 30px 0px;
+    }
+
+    .s7_heading {
+        font-size: 10rem;
+    }
+}
+
+/* laptop view media queries  */
+
+@media only screen and (min-width: 668px) and (max-width: 768px) {
+
+    .date_container>p {
+        letter-spacing: 10px;
+    }
+
+    .py-logo {
+        width: 90%;
+    }
+
+    .section_1_paragraph {
+        width: 90%;
+        font-size: 22px;
+        margin: auto;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .section_3 {
+        padding: 0px;
+    }
+
+    .s3_container {
+        width: 90%;
+        padding: 80px 0px;
+    }
+
+    .s3_heading {
+        font-size: 50px;
+    }
+
+    .s3_para {
+        margin: 30px auto;
+        max-width: 90%;
+    }
+
+    .section_4 {
+        padding: 30px 0px;
+    }
+
+    .s4_leaders {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+    }
+
+    .s4_leaders>div {
+        padding: 40px 0px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .s5_heading {
+        padding: 15% 0px;
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .section_6 {
+        padding: 30px 0px;
+    }
+
+    .s6_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .s6_container>div {
+        max-width: 100%;
+    }
+
+    .s6_para {
+        font-size: 22px;
+    }
+
+    .section_7 {
+        padding: 30px 0px;
+    }
+
+    .s7_heading {
+        font-size: 10rem;
+    }
+
 }
