@@ -264,7 +264,7 @@
     background-color: #070707;
 }
 
-.s7_container>a{
+.s7_container>a {
     margin: auto;
 }
 
@@ -355,7 +355,7 @@ svg:hover {
         font-size: 14px;
     }
 
-    .section_2_img_1{
+    .section_2_img_1 {
         width: 100%;
     }
 
@@ -378,7 +378,7 @@ svg:hover {
     }
 
     .s3_btn1 {
-        padding: 10px ;
+        padding: 10px;
         font-size: 12px;
     }
 
@@ -416,7 +416,7 @@ svg:hover {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .s6_heading{
+    .s6_heading {
         font-size: 35px;
     }
 
@@ -436,13 +436,13 @@ svg:hover {
         font-size: 8rem;
     }
 
-    .section_9{
+    .section_9 {
         padding: 0px;
     }
 
     .sec_9_container {
         padding-top: 40px;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
