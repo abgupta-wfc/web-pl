@@ -152,7 +152,7 @@
 .section_4 {
     padding: 100px;
     /* background: linear-gradient(to top, #ffea00 0%,#f1a10a 100%); */
-    background-color: #ffea00;
+    background-color: white;
     text-align: center;
 }
 
@@ -195,6 +195,7 @@
 .section_5 {
     /* padding: 400px; */
     background-color: #e6d200;
+    background: linear-gradient(to top, #ffea00 0%, #fff 100%);
 }
 
 .s5_heading {
@@ -321,6 +322,13 @@ svg:hover {
     width: 85px;
     margin: 10px auto;
     padding: 10/px;
+}
+
+.candidate_img{
+    max-width: 10%;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 667px) {
