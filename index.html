@@ -59,24 +59,43 @@
     <!-- section 4  -->
     <section class="section_4">
         <div class="s4_container">
-            <p class="s3_heading">Our Magicians</p>
-            <p class="s3_para">Masters of the art, our incredible Pyloops heroes form the legendary software staffing
-                hall of fame. Don't believe us? Meet the enchanting trio:</p>
+            <p class="s3_heading">Why Choose Pyloops</p>
+            <!-- <p class="s3_para">Masters of the art, our incredible Pyloops heroes form the legendary software staffing
+                hall of fame. Don't believe us? Meet the enchanting trio:</p> -->
             <div class="s4_leaders">
                 <div>
-                    <img src="img/profile_pic1.png" alt="profile_pic1" class="team_pic">
-                    <h2 class="s4_leader_name">Rohit Sharma</h2>
-                    <h3 class="s4_leader_des">CEO & Founder</h3>
+                    <!-- <img src="img/profile_pic1.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Experienced Staff</h3>
+                    <h5 class="s4_leader_des">Our professionals have a proven track of record.</h5>
                 </div>
                 <div>
-                    <img src="img/profile_pic3.png" alt="profile_pic1" class="team_pic">
-                    <h2 class="s4_leader_name">Arpita Kastwar</h2>
-                    <h3 class="s4_leader_des">Director</h3>
+                    <!-- <img src="img/profile_pic3.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Diverse Experties</h3>
+                    <h5 class="s4_leader_des">Skills spanning across multiple IT domains.</h5>
+                </div>
+            </div>
+            <div class="s4_leaders">
+                <div>
+                    <!-- <img src="img/profile_pic2.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Client Focused</h3>
+                    <h5 class="s4_leader_des">Your satisfaction is our top priority.</h5>
                 </div>
                 <div>
-                    <img src="img/profile_pic2.png" alt="profile_pic1" class="team_pic">
-                    <h2 class="s4_leader_name">Vasu Gupta</h2>
-                    <h3 class="s4_leader_des">Manager</h3>
+                    <!-- <img src="img/profile_pic2.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Flexible Solutions</h3>
+                    <h5 class="s4_leader_des">Customized, just for your needs.</h5>
+                </div>
+            </div>
+            <div class="s4_leaders">
+                <div>
+                    <!-- <img src="img/profile_pic2.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Dynamic Approach</h3>
+                    <h5 class="s4_leader_des">Adapting to ever-changing IT trends.</h5>
+                </div>
+                <div>
+                    <!-- <img src="img/profile_pic2.png" alt="profile_pic1" class="team_pic"> -->
+                    <h3 class="s4_leader_name">Competitive Edge</h3>
+                    <h5 class="s4_leader_des">Stay ahead of the curve with Pyloops</h5>
                 </div>
             </div>
         </div>
@@ -122,20 +141,44 @@
     <!-- section 7  -->
     <section class="section_7">
         <p id="footer" class="s7_heading"></p>
-
-        <div class="s7_container">
-            <a href="https://twitter.com/PyLoops" class="uk-icon-button" target="_blank" data-uk-icon="twitter"></a>
-            <a href="https://www.facebook.com/pyloopslab/" target="_blank" class="uk-icon-button"
-                data-uk-icon="facebook"></a>
-            <a href="https://www.linkedin.com/company/pyloops-llc/" target="_blank" class="uk-icon-button"
-                data-uk-icon="linkedin"></a>
-        </div>
     </section>
 
     <!-- contact us section  -->
     <section id="section_8">
         <iframe style="border:none;width:100%;" height="530px" src="https://notionforms.io/forms/contact-us-185">
         </iframe>
+    </section>
+
+    <!-- footer section  -->
+    <section class="section_9">
+        <div class="sec_9_container">
+            <div>
+                <p class="uk-text-primary">Company</p>
+                <a style="text-decoration: none; color: whitesmoke;">About</a>
+                <a style="text-decoration: none; color: whitesmoke;">Services</a>
+                <a style="text-decoration: none; color: whitesmoke;">Contact</a>
+            </div>
+            <div>
+                <p class="uk-text-primary">Resources</p>
+                <a style="text-decoration: none; color: whitesmoke;">Blog</a>
+                <a style="text-decoration: none; color: whitesmoke;">FAQ</a>
+                <a style="text-decoration: none; color: whitesmoke;">Terms</a>
+            </div>
+            <div>
+                <p class="uk-text-primary">Social</p>
+                <a style="text-decoration: none; color: whitesmoke;">Facebook</a>
+                <a style="text-decoration: none; color: whitesmoke;">LinkdIn</a>
+                <a style="text-decoration: none; color: whitesmoke;">Twitter</a>
+            </div>
+        </div>
+
+        <div class="s7_container">
+            <a href="https://twitter.com/PyLoops" target="_blank" data-uk-icon="twitter"></a>
+            <a href="https://www.facebook.com/pyloopslab/" target="_blank" data-uk-icon="facebook"></a>
+            <a href="https://www.linkedin.com/company/pyloops-llc/" target="_blank" data-uk-icon="linkedin"></a>
+        </div>
+
+        <p style="text-align: center;" id="footer_text">@ 2023 Pyloops LLC</p>
     </section>
 </body>
 
@@ -226,6 +269,7 @@
     const date = document.getElementById("date");
     const year = document.getElementById("year");
     const footer = document.getElementById("footer");
+    const footer_text = document.getElementById("footer_text");
 
     const dateArr = getCurrentDateAndTime().split(" ");
     let dayStr = getDayInFullName(dateArr[0]);
@@ -240,6 +284,7 @@
     date.innerHTML = dateArr[2];
     year.innerHTML = dateArr[3];
     footer.innerText = dateArr[3];
+    footer_text.innerText = "@ " + dateArr[3] + ' Pyloops LLC';
 </script>
 
 <!-- JS FILES -->
