@@ -110,41 +110,36 @@
 
 .btn_container {
     display: grid;
-    max-width: 60vh;
+    max-width: 60%;
     margin: auto;
+    margin-top: 10%;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
+    gap: 20px;
 }
 
 .s3_btn1 {
-    padding: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: none;
+    padding: 15px;
     background-color: white;
-    color: black;
+    color: #f1a10a;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .s3_btn2 {
-    padding: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: none;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #f1a10a;
     color: black;
     cursor: pointer;
 }
 
-.s3_btn1:hover,
+.s3_btn1:hover{
+    color: black;
+    transition: .6s;
+}
 .s3_btn2:hover {
     color: black;
     transition: .6s;
-    padding: 10px 20px;
 }
 
 /* section 4 start  */
@@ -575,7 +570,7 @@ svg:hover {
     }
 
     .s6_para {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .section_7 {
