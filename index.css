@@ -110,41 +110,36 @@
 
 .btn_container {
     display: grid;
-    max-width: 60vh;
+    max-width: 60%;
     margin: auto;
+    margin-top: 10%;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
+    gap: 20px;
 }
 
 .s3_btn1 {
-    padding: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: none;
+    padding: 15px;
     background-color: white;
-    color: black;
+    color: #f1a10a;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .s3_btn2 {
-    padding: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: none;
+    padding: 15px;
+    border-radius: 20px;
     background-color: #f1a10a;
     color: black;
     cursor: pointer;
 }
 
-.s3_btn1:hover,
+.s3_btn1:hover{
+    color: black;
+    transition: .6s;
+}
 .s3_btn2:hover {
     color: black;
     transition: .6s;
-    padding: 10px 20px;
 }
 
 /* section 4 start  */
@@ -319,13 +314,47 @@ svg:hover {
 .sec_9_container>div>a {
     /* border: 1px solid red; */
     display: block;
-    width: 85px;
+    width: 150px;
     margin: 10px auto;
     padding: 10/px;
 }
 
+/* section 10 start  */
+
+.section_s10 {
+    padding: 100px;
+    background: linear-gradient(to top, #e6d200 0%,white 100%);
+    /* background-color: rgb(11, 11, 11); */
+    text-align: center;
+}
+
+.s10_leaders {
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.s10_leaders>div {
+    /* padding: 40px 10px; */
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    /* background-color: #e6d200; */
+}
+
+.s10_leader_name {
+    margin-top: 30px;
+    /* color: #f1a10a; */
+}
+
+.s10_leader_des {
+    margin-top: 10px;
+}
+
+
 .candidate_img{
-    max-width: 10%;
+    max-width: 15%;
     display: block;
     margin: auto;
     margin-top: 100px;
@@ -453,6 +482,18 @@ svg:hover {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .section_s10 {
+        padding: 20px;
+    }
+
+    .s10_leaders {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .candidate_img{
+        max-width: 40%;
+    }
+
 }
 
 /* laptop view media queries  */
@@ -529,7 +570,7 @@ svg:hover {
     }
 
     .s6_para {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .section_7 {
